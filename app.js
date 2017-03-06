@@ -25,7 +25,7 @@ app.get('/me', function(req, res){
 		res.send({
 			user : req.user, 
 			delay : req.query.delay, 
-			increment:counter
+			counter : counter
 		});
 	}, req.query.delay*1000);
 
