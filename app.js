@@ -34,5 +34,5 @@ app.get('/me', function(req, res){
 });
 
 var server = app.listen(3000, function () {
-   console.log("Example app listening at http://%s:%s", server.address().address, server.address().port)
+   console.log("Http server listening at http://%s:%s", server.address().address, server.address().port)
 })
